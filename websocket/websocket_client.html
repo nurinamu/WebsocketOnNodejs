@@ -12,7 +12,7 @@
     }
     log.buffer = [];
     // 아래 값은 상황에 맞게 변경할 것
-    url = "ws://192.168.0.242:8000";
+    url = "ws://127.0.0.1:8000";
     w = new WebSocket(url, 'echo-protocol');
  
     w.onopen = function() {
